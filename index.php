@@ -10,7 +10,7 @@
 
     <title>Dashboard</title>
 </head>
-<body class="bg-light">
+<body class="bg-light sidebar-full-off">
 
 <header id="navigation" class="bg-white p-3 shadow-sm">
     <?php
@@ -20,7 +20,12 @@
 <aside id="sidebar" class="bg-dark text-white">
     <!-- Make this better, padding should be on the #sidebar -->
     <div class="p-3 d-flex flex-column w-100">
-        <h4 class="my-3">Sidebar</h4>
+        <h4 class="my-3"><svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"
+                              xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32"
+                              preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#e83e8c"></rect>
+                <text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text>
+            </svg> Sidebar</h4>
         <?php
         include('resources/views/sidebar.blade.php') ?>
     </div>

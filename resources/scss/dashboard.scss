@@ -62,3 +62,15 @@ body {
 #content {
     padding-left: 20rem;
 }
+
+
+body.sidebar-full {
+    #navigation {
+        margin-left: 20rem;
+    }
+
+    #sidebar {
+        width: 20rem;
+        padding-top: 0;
+    }
+}
